@@ -1,0 +1,22 @@
+﻿1)
+-- use msappdb;
+-- drop table Users;
+
+2)
+use msappdb;
+-- create table Users(
+-- 	ID int auto_increment NOT NULL,
+--     Name varchar(30) NOT NULL,
+--     Email varchar(30) NOT NULL,
+--     Password varchar(30) NOT NULL,
+--     lastBatch date ,
+--     primary key(ID)
+-- );
+
+3)
+-- use msappdb;
+-- INSERT INTO Users(Name, Email, Password,lastBatch) VALUE ("Murad 2", "fake@fake.com", "12345","2023-8-1");
+
+4)
+use msappdb;
+Select * from Users ;
